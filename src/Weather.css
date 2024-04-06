@@ -32,21 +32,23 @@ li {
 	color: #292a3a;
 	background-color: #5190cfc0;
 }
-svg {
-	display: inline-block;
-	float: right;
-	width: 100px;
-	height: 100px;
-}
+
 .currentTemperature {
 	font-size: 80px;
 	font-weight: 500;
 	line-height: 1.2;
+	margin-left: 10px;
+	text-align: end;
 }
 
 .units {
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 1.2;
 	position: relative;
-	top: -35px;
+	top: 15px;
+	left: 20px;
+}
+
+a {
+	text-decoration: none;
 }

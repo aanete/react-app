@@ -8,7 +8,12 @@ export default function App() {
 			<Weather defaultCity="Oslo" />
 			<footer>
 				This project was coded by{" "}
-				<a href="https://github.com/aanete" target="_blank" rel="noreferrer">
+				<a
+					href="https://github.com/aanete"
+					target="_blank"
+					rel="noreferrer"
+					className="footer-link"
+				>
 					Anete Alksne
 				</a>{" "}
 				and is open-sourced on{" "}
@@ -16,11 +21,17 @@ export default function App() {
 					href="https://github.com/aanete/react-app"
 					target="_blank"
 					rel="noreferrer"
+					className="footer-link"
 				>
 					GitHub
 				</a>{" "}
 				and hosted on{" "}
-				<a href="https://www.netlify.com/" target="_blank" rel="noreferrer">
+				<a
+					href="https://www.netlify.com/"
+					target="_blank"
+					rel="noreferrer"
+					className="footer-link"
+				>
 					Netlify
 				</a>
 				.

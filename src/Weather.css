@@ -1,38 +1,52 @@
 body {
-	background: rgb(101, 146, 191, 0.8);
-}
-.searchContainer {
-	margin: 50px auto 0 auto;
-	max-width: 500px;
-	border: none;
-	border-radius: 5px;
-	background: linear-gradient(
-		179.7deg,
-		rgb(242, 246, 249) 4.9%,
-		rgb(222, 234, 247) 95.1%
-	);
-	box-shadow: 1px 10px 40px #25272f;
-	padding: 30px 30px;
+	background: #6592bfcc;
+	color: #292a3a;
 }
 
+.Weather {
+	background: rgba(202, 227, 252, 0.986);
+	border: 1px solid #292a3a;
+	border-radius: 5px;
+	margin: 30px auto 10px auto;
+	padding: 40px;
+	box-shadow: 5px 5px 15px #292a3a;
+	max-width: 600px;
+}
+ul {
+	padding: 0;
+}
 li {
 	list-style: none;
-	text-align: left;
 }
 
-.currentCity {
-	font-weight: 600;
-	text-transform: uppercase;
+.Weather h2 {
+	margin-top: 10px;
+
+	font-size: 40px;
 }
 
-form {
-	margin-top: 30px;
+.btn {
+	border: 1px solid #5190cfc0;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #5e5f69;
+	color: #292a3a;
+	background-color: #5190cfc0;
+}
+svg {
+	display: inline-block;
+	float: right;
+	width: 100px;
+	height: 100px;
+}
+.currentTemperature {
+	font-size: 80px;
+	font-weight: 500;
+	line-height: 1.2;
 }
 
-input {
-	padding: 10px;
-}
-
-.searchButton {
-	background: rgb(101, 146, 191, 0.8);
+.units {
+	font-size: 30px;
+	line-height: 1.2;
+	position: relative;
+	top: -35px;
 }

@@ -1,0 +1,23 @@
+.container {
+	margin: 50px auto 0 auto;
+	max-width: 500px;
+	border: none;
+	border-radius: 5px;
+	background: linear-gradient(
+		179.7deg,
+		rgb(242, 246, 249) 4.9%,
+		rgb(222, 234, 247) 95.1%
+	);
+	box-shadow: 1px 10px 40px #25272f;
+	padding: 30px 30px;
+}
+
+li {
+	list-style: none;
+	text-align: left;
+}
+
+.currentCity {
+	font-weight: 600;
+	text-transform: uppercase;
+}

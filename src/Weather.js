@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import axios from "axios";
+
 import "./Weather.css";
 
-export default function Weather() {
+export default function Weather(props) {
 	const [currentWeather, setCurrentWeather] = useState({ ready: false });
 
 	function handleResponse(response) {
-		console.log(response.data);
 		setCurrentWeather({
 			ready: true,
 			city: response.data.name,
@@ -67,7 +67,7 @@ export default function Weather() {
 		);
 	} else {
 		const apiKey = `210d99196a88b9257ed8cb3535a0a0c5`;
-		let city = "Riga";
+		let city = props.defaultCity;
 		let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 		axios.get(apiUrl).then(handleResponse);
 

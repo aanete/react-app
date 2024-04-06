@@ -56,18 +56,15 @@ export default function Search() {
 					</li>
 				</ul>
 				<footer>
-					This project was coded by
+					This project was coded by{" "}
 					<a href="https://github.com/aanete" target="_blank">
 						Anete Alksne
-					</a>
-					and is open-sourced on
-					<a
-						href="https://github.com/aanete/WeatherApp2024.git"
-						target="_blank"
-					>
+					</a>{" "}
+					and is open-sourced on{" "}
+					<a href="https://github.com/aanete/react-app" target="_blank">
 						GitHub
-					</a>
-					and hosted on
+					</a>{" "}
+					and hosted on{" "}
 					<a href="https://www.netlify.com/" target="_blank">
 						Netlify
 					</a>

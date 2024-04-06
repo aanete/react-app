@@ -1,10 +1,10 @@
 import "./App.css";
-import Search from "./Search";
+import Weather from "./Weather";
 
 function App() {
 	return (
 		<div className="App">
-			<Search />
+			<Weather />
 			<footer>
 				This project was coded by{" "}
 				<a href="https://github.com/aanete" target="_blank" rel="noreferrer">

@@ -4,7 +4,7 @@ body {
 }
 
 .Weather {
-	background: rgba(202, 227, 252, 0.986);
+	background: rgb(217, 235, 255);
 	border: 1px solid #292a3a;
 	border-radius: 5px;
 	margin: 30px auto 10px auto;

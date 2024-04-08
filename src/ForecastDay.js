@@ -30,7 +30,7 @@ export default function FunctionDay(props) {
 	}
 
 	return (
-		<div className="forecast">
+		<div className="forecast ">
 			<div className="forecastDay">{day()}</div>
 			<div className="forecastIcon">
 				<WeatherIcon code={props.data.weather[0].icon} alt=" " size={50} />

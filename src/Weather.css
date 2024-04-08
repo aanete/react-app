@@ -19,7 +19,7 @@ li {
 	list-style: none;
 }
 
-.WeatherInfo h2 {
+.currentCity {
 	margin-top: 10px;
 
 	font-size: 40px;
@@ -34,23 +34,28 @@ li {
 }
 
 .currentTemperature {
-	font-size: 80px;
+	font-size: 100px;
 	font-weight: 500;
-	line-height: 1.2;
-	margin-left: 10px;
-	text-align: end;
+	line-height: 0.8;
 }
 
 .units {
-	font-size: 25px;
-	line-height: 1.2;
+	font-size: 30px;
 	position: relative;
-	top: 15px;
-	left: 20px;
+	top: -50px;
 }
 
 a {
 	text-decoration: none;
 	color: #5190cf;
 	font-weight: 500;
+}
+@media (max-width: 575px) {
+	.WeatherInfo {
+		text-align: center;
+	}
+
+	.currentCity {
+		font-size: 80px;
+	}
 }

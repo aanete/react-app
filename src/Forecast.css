@@ -5,3 +5,8 @@
 .forecast {
 	text-align: center;
 }
+@media (max-width: 575px) {
+	.forecastDay {
+		margin-top: 15px;
+	}
+}
